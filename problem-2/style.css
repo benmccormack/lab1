@@ -1,0 +1,16 @@
+.note {
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+    display: inline-block;
+    width: 25%;
+}
+
+.note button {
+    font-size: 14px;
+    padding: 16px 32px;
+}
+
+.note br {
+    margin: 2%;
+}
