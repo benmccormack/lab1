@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes App</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Permanent+Marker&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <form>
-        <input type="text" id="noteTitle" name="noteTitle" placeholder="Note Title" /><br>
-        <textarea id="noteSubject" name="noteSubject" placeholder="Note Subject" rows="4" cols="50"></textarea><br>
-        <input type="color" id="noteColor" /><br>
-    </form>
-    <button onclick="addNote()">Add Note</button>
-    <h1>My Notes:</h1>
-    <br><br>
+  <h1>- Note Buddy -</h1>
+  <div id="addNote">
+    <textarea id="noteText"></textarea>
+    <br />
+    <input type="color" id="noteColor" />
+    <br />
+    <button onclick="createNote()">Create Note</button>
+  </div>
+
 </body>
+<script src="app.js"></script>
 
 </html>
